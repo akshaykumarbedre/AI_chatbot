@@ -77,4 +77,3 @@ graph.add_edge('tool_node', 'agent')
 graph.set_entry_point('agent')
 
 app = graph.compile()
-

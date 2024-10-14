@@ -30,8 +30,6 @@ class CustomEmbeddingClass(EmbeddingFunction):
     def __call__(self, input_texts: List[str]) -> Embeddings:
         return [self.embedding_model.get_text_embedding(text) for text in input_texts]
 
-
-
 class FlowerShopVectorStore:
     def __init__(self):
         db = PersistentClient(path=DB_PATH)
