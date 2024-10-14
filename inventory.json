@@ -1,0 +1,122 @@
+[
+    {
+        "id": "D001",
+        "name": "Premium Liquid Hand Soap",
+        "quantity": 50,
+        "price": 5,
+        "type": "personal care",
+        "description": "A 500ml bottle of antibacterial liquid hand soap with a pleasant lavender fragrance, perfect for keeping hands clean and soft."
+    },
+    {
+        "id": "D002",
+        "name": "Ultra Soft Toothbrush (Pack of 4)",
+        "quantity": 30,
+        "price": 7,
+        "type": "personal care",
+        "description": "A pack of four ultra-soft bristle toothbrushes, ideal for sensitive gums and gentle cleaning."
+    },
+    {
+        "id": "D003",
+        "name": "Multipurpose Cleaning Spray",
+        "quantity": 20,
+        "price": 6,
+        "type": "household",
+        "description": "A 750ml bottle of multipurpose surface cleaner, effective on glass, wood, and kitchen surfaces, with a fresh lemon scent."
+    },
+    {
+        "id": "D004",
+        "name": "All-Natural Dishwashing Liquid",
+        "quantity": 40,
+        "price": 4,
+        "type": "household",
+        "description": "A 1-liter bottle of eco-friendly dishwashing liquid made with natural ingredients, gentle on hands and tough on grease."
+    },
+    {
+        "id": "D005",
+        "name": "Microfiber Cleaning Cloths (Pack of 6)",
+        "quantity": 60,
+        "price": 8,
+        "type": "household",
+        "description": "A set of six high-quality microfiber cleaning cloths, perfect for dusting, wiping, and polishing without scratching surfaces."
+    },
+    {
+        "id": "D006",
+        "name": "Biodegradable Trash Bags (30 Pack)",
+        "quantity": 100,
+        "price": 10,
+        "type": "household",
+        "description": "A pack of 30 biodegradable trash bags, 20-liter capacity, designed to reduce plastic waste while maintaining strength and durability."
+    },
+    {
+        "id": "D007",
+        "name": "Bamboo Toilet Paper (12 Rolls)",
+        "quantity": 75,
+        "price": 12,
+        "type": "personal care",
+        "description": "A pack of 12 rolls of 100% bamboo toilet paper, soft, strong, and eco-friendly, suitable for daily use."
+    },
+    {
+        "id": "D008",
+        "name": "Reusable Water Bottle (1 Liter)",
+        "quantity": 50,
+        "price": 15,
+        "type": "kitchen",
+        "description": "A 1-liter reusable stainless steel water bottle with a leak-proof cap, perfect for staying hydrated on the go."
+    },
+    {
+        "id": "D009",
+        "name": "Organic Cotton Bath Towels (Set of 2)",
+        "quantity": 35,
+        "price": 20,
+        "type": "personal care",
+        "description": "A set of two large, soft organic cotton bath towels, designed for maximum absorbency and comfort."
+    },
+    {
+        "id": "D010",
+        "name": "Stainless Steel Food Storage Containers (Set of 3)",
+        "quantity": 45,
+        "price": 25,
+        "type": "kitchen",
+        "description": "A set of three durable, stainless steel food storage containers with airtight lids, perfect for meal prep and leftovers."
+    },
+    {
+        "id": "D011",
+        "name": "Organic Green Tea (100 Tea Bags)",
+        "quantity": 55,
+        "price": 18,
+        "type": "food & beverage",
+        "description": "A box of 100 organic green tea bags, sourced from sustainable farms, known for its refreshing taste and health benefits."
+    },
+    {
+        "id": "D012",
+        "name": "Rechargeable LED Desk Lamp",
+        "quantity": 25,
+        "price": 22,
+        "type": "electronics",
+        "description": "A rechargeable LED desk lamp with adjustable brightness, ideal for reading or working with minimal eye strain."
+    },
+    {
+        "id": "D013",
+        "name": "Silicone Food Storage Bags (Pack of 5)",
+        "quantity": 40,
+        "price": 14,
+        "type": "kitchen",
+        "description": "A set of five reusable silicone food storage bags, perfect for keeping food fresh and reducing plastic waste."
+    },
+    {
+        "id": "D014",
+        "name": "All-Purpose Floor Cleaner",
+        "quantity": 30,
+        "price": 9,
+        "type": "household",
+        "description": "A 1.5-liter bottle of all-purpose floor cleaner, safe for use on hardwood, tile, and laminate floors with a fresh lavender scent."
+    },
+    {
+        "id": "D015",
+        "name": "Ergonomic Memory Foam Pillow",
+        "quantity": 20,
+        "price": 30,
+        "type": "home",
+        "description": "A premium memory foam pillow with an ergonomic design for improved neck support and comfort during sleep."
+    }
+]
