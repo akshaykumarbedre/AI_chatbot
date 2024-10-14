@@ -20,8 +20,8 @@ customers_database = [
 ]
 
 orders_database = [
-    {"order_id": "ORD001", "customer_id": "CUST001", "status": "Processing", "items": ["Red Roses Bouquet"], "quantity": [1]},
-    {"order_id": "ORD002", "customer_id": "CUST002", "status": "Shipped", "items": ["Mixed Tulips", "Vase"], "quantity": [3, 1]},
+    {"order_id": "ORD001", "customer_id": "CUST001", "status": "Processing", "items": ["Premium Liquid Hand Soap"], "quantity": [1]},
+    {"order_id": "ORD002", "customer_id": "CUST002", "status": "Shipped", "items": ["Ultra Soft Toothbrush (Pack of 4)", "Premium Liquid Hand Soap"], "quantity": [1, 1]},
 ]
 
 with open('inventory.json', 'r') as f:
@@ -226,7 +226,7 @@ def send_order_confirmation_email(order_id: str, customer_id: str, items: Dict[s
     # Create the email message
     message = MIMEMultipart()
     message['From'] = "akshaykumarbedre.bm@gmail.com"
-    message['To'] = customer_email
+    message['To'] = "akshaykumarbedre.bm@gmail.com"
     message['Subject'] = subject
     message.attach(MIMEText(body, 'plain'))
 

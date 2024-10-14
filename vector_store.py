@@ -39,7 +39,7 @@ class FlowerShopVectorStore:
         custom_embedding_function = CustomEmbeddingClass(MODEL_NAME)
 
         self.faq_collection = db.get_or_create_collection(name='FAQ', embedding_function=custom_embedding_function)
-        self.inventory_collection = db.get_or_create_collection(name='Inventory', embedding_function=custom_embedding_function)
+        self.inventory_collection = db.get_or_create_collection(name='inventory', embedding_function=custom_embedding_function)
 
         if self.faq_collection.count() == 0:
             self._load_faq_collection(FAQ_FILE_PATH)
@@ -52,7 +52,7 @@ class FlowerShopVectorStore:
             faqs = json.load(f)
 
         self.faq_collection.add(
-            documents=[faq['question'] for faq in faqs] + [faq['answer'] for faq in faqs],
+            documents=[FAQ['question'] for FAQ in faqs] + [FAQ['answer'] for FAQ in faqs],
             ids=[str(i) for i in range(0, 2*len(faqs))],
             metadatas = faqs + faqs
         )
